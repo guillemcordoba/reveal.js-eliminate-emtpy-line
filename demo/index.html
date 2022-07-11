@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="Description" content="Put your description here." />
+    <base href="/" />
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-color: #ededed;
+        --r-main-font-size: 24px;
+      }
+
+      .slides {
+        width: 75% !important;
+      }
+
+      .container {
+        top: 0 !important;
+        display: flex !important;
+        flex-direction: row !important;
+      }
+      .column {
+        flex: 1;
+      }
+
+      section {
+        text-align: left;
+      }
+      .details {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 400px;
+      }
+    </style>
+    <link rel="stylesheet" href="/node_modules/reveal.js/dist/reveal.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/reveal.js/dist/theme/black.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/reveal.js/plugin/highlight/monokai.css"
+    />
+    <title>slides-sl</title>
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+
+        <section>
+<pre>
+<code class="rust">
+<span class="fragment fade-in">
+struct Person {
+  <span class="fragment fade-in">
+  name: String,
+  age: u32
+  </span>
+}
+</span>
+<span class="fragment fade-in">
+struct C;
+</span>
+</code>
+</pre>
+        </section>
+
+      </div>
+    </div>
+    <script type="module">
+      import RevealEliminateEmtpyLines from "../src/index.js";
+
+      import Reveal from "reveal.js";
+
+      let deck = new Reveal({
+        plugins: [RevealEliminateEmtpyLines],
+      });
+      deck.initialize();
+    </script>
+  </body>
+</html>
