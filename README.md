@@ -1,6 +1,6 @@
 # reveal.js-eliminate-emtpy-lines
 
-A [Reveal.js](https://revealjs.com/) plugin to eliminate line breaks in <pre> tags in lines that don't contain anything other than an html tag.
+A [Reveal.js](https://revealjs.com/) plugin to eliminate line breaks in &lt;pre&gt; tags in lines that don't contain anything other than an html tag.
 
 ## Installation
 

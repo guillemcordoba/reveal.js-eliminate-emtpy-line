@@ -3,7 +3,7 @@
   "description": "Webcomponent reveal.js-eliminate-empty-lines following open-wc recommendations",
   "license": "MIT",
   "author": "reveal.js-eliminate-empty-lines",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/index.js",
   "module": "src/index.js",
   "scripts": {
