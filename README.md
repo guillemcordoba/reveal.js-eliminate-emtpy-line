@@ -5,7 +5,7 @@ A [Reveal.js](https://revealjs.com/) plugin to eliminate line breaks in &lt;pre&
 ## Installation
 
 ```bash
-npm i reveal.js-eliminate-emtpy-lines
+npm i reveal.js-eliminate-empty-lines
 ```
 
 ## Usage
