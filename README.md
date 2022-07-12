@@ -1,4 +1,4 @@
-# reveal.js-eliminate-emtpy-lines
+# reveal.js-eliminate-empty-lines
 
 A [Reveal.js](https://revealjs.com/) plugin to eliminate line breaks in &lt;pre&gt; tags in lines that don't contain anything other than an html tag.
 
@@ -14,12 +14,12 @@ Add the plugin:
 
 ```html
   <script type="module">
-    import RevealEliminateEmtpyLines from "reveal.js-eliminate-empty-lines";
+    import RevealEliminateEmptyLines from "reveal.js-eliminate-empty-lines";
 
     import Reveal from "reveal.js";
 
     let deck = new Reveal({
-      plugins: [RevealEliminateEmtpyLines],
+      plugins: [RevealEliminateEmptyLines],
     });
     deck.initialize();
   </script>
