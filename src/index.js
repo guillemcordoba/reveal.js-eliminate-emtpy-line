@@ -5,7 +5,7 @@ export default () => ({
 
     for (const pre of pres) {
       pre.innerHTML = pre.innerHTML.replace(
-        /^\ *(<[^\/<>]+>)*\n/gm,
+        /^\ *(<[^\/<>]+>)* *\n/gm,
         "$1"
       );
       pre.innerHTML = pre.innerHTML.replace(/\n^\ *(<\/[^<>]+>)*\n?$/gm , '$1')
